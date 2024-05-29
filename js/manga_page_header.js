@@ -1,13 +1,4 @@
 //Header Body
-var l="<div class='container-1'><img src='"+site_image+"' alt='Kimetsu Background'>";
-document.write(l);
-
-var m="<div class='container-2'><span>&nbsp; Start reading &nbsp;</span></div>";
-document.write(m);
-
-var n="<h1>Read "+anime_name+" Manga , Chapter "+page_id+" | "+site_name+"</h1>";
-document.write(n);
-
 var o="<div class='container-3'>";
 document.write(o);
 
