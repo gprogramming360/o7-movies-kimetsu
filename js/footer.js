@@ -17,6 +17,6 @@ document.write(b);
 //END FOOTER
 
 //MISCELLANEOUS CODE
-var f="<div class='apk'><a href='../kimetsu.apk' alt='Download Kimetsu Official App'><img src='../img/apk.webp' alt='apk logo'></a></div>";
+var f="<div class='apk'><a href='../kimetsu.apk' alt='Download Kimetsu Official App'><img src='../../img/apk.webp' alt='apk logo'></a></div>";
 document.write(f);
 //END MISCELLANEOUS CODE
