@@ -579,6 +579,32 @@ line-height:2.1;
 }
 /*END SECTION 10 MANGA*/
 
+/*SECTION 11 EPISODES*/
+.container-11{
+padding:10px;
+}
+.container-11 span{
+color:#444;
+font-size: 19px;
+font-family: nunito;
+font-weight: bold;
+}
+.container-11 .block-1{
+
+}
+.container-11 .block-1 span{
+color:#444;
+font-size: 15px;
+font-family: nunito;
+font-weight: bold;
+}
+.container-11 .block-1 span a{
+padding:5px;
+background-color:#0066CC;
+text-decoration:none;
+}
+/*SECTION 11 EPISODES*/
+
 /*SECTION 6*/
 footer{
 padding:10px;
