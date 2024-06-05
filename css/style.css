@@ -591,7 +591,7 @@ font-family: nunito;
 font-weight: bold;
 }
 .container-11 .block-1{
-padding-top:20px;
+margin-top:20px;
 }
 .container-11 .block-1 span{
 color:#444;
@@ -599,12 +599,14 @@ padding: 15px;
 font-size: 15px;
 font-family: nunito;
 font-weight: bold;
+border-radius:5px;
 background -color: #fff;
 box-shadow:0px 0px 7px 0.4px #666;
 }
 .container-11 .block-1 span a{
 color:#fff;
 padding:5px;
+border-radius:3px;
 background-color:#0066CC;
 text-decoration:none;
 }
