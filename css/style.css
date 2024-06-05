@@ -581,7 +581,8 @@ line-height:2.1;
 
 /*SECTION 11 EPISODES*/
 .container-11{
-padding:10px;
+padding-top: 20px;
+padding-left:10px;
 }
 .container-11 span{
 color:#444;
@@ -590,7 +591,7 @@ font-family: nunito;
 font-weight: bold;
 }
 .container-11 .block-1{
-
+padding-top:20px;
 }
 .container-11 .block-1 span{
 color:#444;
