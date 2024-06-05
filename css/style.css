@@ -595,16 +595,19 @@ margin-top:20px;
 }
 .container-11 .block-1 span{
 color:#444;
-font-size: 13px;
+font-size: 14px;
 font-family: nunito;
 font-weight: bold;
 border-radius:3px;
+padding: 8px;
 background-color: #fff;
 box-shadow:0px 0px 7px 0.4px #666;
 }
 .container-11 .block-1 span a{
 color:#fff;
 padding:8px;
+left:5px;
+position: relative;
 border-radius:3px;
 background-color:#0066CC;
 text-decoration:none;
