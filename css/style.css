@@ -581,8 +581,8 @@ line-height:2.1;
 
 /*SECTION 11 EPISODES*/
 .container-11{
-padding-top: 20px;
-padding-left:10px;
+margin-top: 20px;
+padding:10px;
 }
 .container-11 span{
 color:#444;
