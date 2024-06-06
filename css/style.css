@@ -3,7 +3,6 @@ scroll-behavior: smooth;
 }
 body{
 margin:0px;
-display:flex;
 background-color: #fff;
 }
 @font-face {
@@ -666,11 +665,10 @@ footer .block-3{
 }
 footer .block-3 span{
 color:#444;
-font-size: 14px;
+font-size: 2vw;
 font-family: lato;
 font-weight: normal;
 line-height:2.1;
-display:flex;
 text-decoration: none;
 }
 footer .block-3 span a{
