@@ -556,6 +556,7 @@ padding:10px;
 }
 .container-10 span{
 color:#fff;
+display:flex;
 font-size: 13px;
 font-family: lato;
 font-weight: bold;
