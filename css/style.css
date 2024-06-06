@@ -577,6 +577,12 @@ font-family: nunito;
 font-weight: bold;
 line-height:2.1;
 }
+@media screen and (max-width:900px){
+
+}
+@media screen and (max-width:600px){
+
+}
 /*END SECTION 10 MANGA*/
 
 /*SECTION 11 EPISODES*/
