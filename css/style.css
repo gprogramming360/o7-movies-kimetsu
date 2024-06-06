@@ -556,7 +556,6 @@ padding:10px;
 }
 .container-10 span{
 color:#fff;
-display:flex;
 font-size: 13px;
 font-family: lato;
 font-weight: bold;
@@ -665,7 +664,7 @@ footer .block-3{
 }
 footer .block-3 span{
 color:#444;
-font-size: 2vw;
+font-size: 10pt;
 font-family: lato;
 font-weight: normal;
 line-height:2.1;
