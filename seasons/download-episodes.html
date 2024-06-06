@@ -70,7 +70,37 @@
 <!--END GOOGLE SEO ARTICLE RICH DATA-->
 
 
-<script src="../js/topnav.js"></script>
+<!---HEADER---->
+<div class="header">
+<!---Topnav--->
+<div class="topnav">
+<a href="../index.html" alt="Home">Kimetsu 360</a>
+<!---Open Sidebar---->
+<img onclick="opensidebar()" src="../img/bars.svg" class="active"  id="nodisplay" alt="Menu">
+<!---Close Sidebar---->
+<img onclick="closesidebar()" src="../img/xmark.svg" class="active"  id="displayit" alt="Exit Menu">
+</div>
+<!---End Topnav--->
+
+<!---Sidebar Navigations--->
+<nav id="openav">
+<h3><strong>Kimetsu 360</strong></h3>
+
+<div class="block-1">
+<!---Links----->
+<span><img src="../img/house-chimney-window.svg" alt="Home icon"><a href="../index.html" rel="tags" alt="Home">Home</a></span></br>
+
+<span><img src="../img/book-open-reader.svg" alt="Home icon"><a href="#manga" rel="tags" alt="Manga">Manga</a></span></br>
+
+<span><img src="../img/play.svg" alt="Home icon"><a href="#seasons" rel="tags" alt="Episode">Episodes</a></span></br>
+
+<span><img src="../img/infinity.svg" alt="Home icon"><a href="#footer" rel="tags" alt="About us">About Us</a></span></br>
+<!---End Links----->
+</div>
+</nav>
+<div id="closenav" onclick="closesidebar()">
+</div>
+<!---End Sidebar Navigations--->
 <!---Header Body--->
 <div class="container-1">
 <img src="../img/background-1.webp" alt="Kimetsu Background">
