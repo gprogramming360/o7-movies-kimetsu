@@ -668,6 +668,7 @@ font-size: 14px;
 font-family: lato;
 font-weight: normal;
 line-height:2.1;
+display:flex;
 text-decoration: none;
 }
 footer .block-3 span a{
