@@ -552,6 +552,7 @@ margin-right: auto;
 
 /*SECTION 10 MANGA*/
 .container-10{
+display: flex;
 padding:10px;
 }
 .container-10 span{
@@ -572,20 +573,10 @@ margin-right: auto;
 }
 .container-10 p{
 color:#444;
-font-size: 7px;
+font-size: 15px;
 font-family: nunito;
 font-weight: bold;
 line-height:2.1;
-}
-@media screen and (max-width:900px){
-.container-10 p{
-font-size: 15px;
-}
-}
-@media screen and (max-width:600px){
-.container-10 p{
-font-size: 15px;
-}
 }
 /*END SECTION 10 MANGA*/
 
