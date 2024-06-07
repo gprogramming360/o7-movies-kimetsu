@@ -660,7 +660,17 @@ line-height:2;
 text-decoration: none;
 }
 footer .block-3{
-width: 1280px;
+width: 1240px;
+}
+@media screen and (max-width:900px){
+footer .block-3{
+width: 890px;
+}
+}
+@media screen and (max-width:600px){
+footer .block-3{
+width: 590px;
+}
 }
 footer .block-3 span{
 color:#444;
