@@ -661,6 +661,7 @@ text-decoration: none;
 }
 footer .block-3{
 width: 800px;
+background-color: red;
 }
 @media screen and (max-width:900px){
 footer .block-3{
