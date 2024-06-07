@@ -660,7 +660,7 @@ line-height:2;
 text-decoration: none;
 }
 footer .block-3{
-width: 1240px;
+width: 715px;
 }
 @media screen and (max-width:900px){
 footer .block-3{
@@ -669,7 +669,7 @@ width: 890px;
 }
 @media screen and (max-width:600px){
 footer .block-3{
-width: 590px;
+width: 320px;
 }
 }
 footer .block-3 span{
