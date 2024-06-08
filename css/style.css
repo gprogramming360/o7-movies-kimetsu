@@ -65,6 +65,27 @@ padding-bottom:0px;
     max-width: 50%;
   }
 }
+.columno {
+  -ms-flex: 20%; /* IE10 */
+  flex:20%; /*how many pic in desktop do yo want*/
+  max-width: 50%;/*fix pic to 2 in mobile view */
+padding-bottom:0px;
+}
+@media screen and (max-width: 900px) {
+  .columno{
+    -ms-flex: 30%;
+    flex: 30%;
+    max-width: 100%;
+    flex: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columno {
+    -ms-flex: 40%;
+    flex: 40%;
+    max-width: 50%;
+  }
+}
 .columnz {
   -ms-flex: 20%; /* IE10 */
   flex:20%; /*how many pic in desktop do yo want*/
@@ -97,9 +118,19 @@ padding: 14px;
 color: #222;
 font-family: nunito;
 font-weight: bold;
-font-size: 23px;
+font-size: 18px;
 position: relative;
 text-decoration: none;
+}
+@media screen and (max-width: 900px){
+.header .topnav a{
+font-size: 23px;
+}
+}
+@media screen and (max-width: 600px){
+.header .topnav a{
+font-size: 23px;
+}
 }
 .header .topnav .active{
 float: right;
@@ -191,10 +222,19 @@ display: none;
 .header .container-1 h1{
 color: #fff;
 text-align: left;
-font-size: 30px;
+font-size: 17px;
 font-family: nunito;
-line-height:1.6;
 padding:5px;
+}
+@media screen and (max-width: 900px){
+.header .container-1 h1{
+font-size: 17px;
+}
+}
+@media screen and (max-width: 600px){
+.header .container-1 h1{
+font-size: 23px;
+}
 }
 .header .container-1 .container-3{
 display: flex;
@@ -237,9 +277,6 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 }
-
-
-
 .header .container-2{
 width: 150px;
 margin:5px;
@@ -257,18 +294,6 @@ line-height:1.6;
 padding:5px;
 background: linear-gradient(270deg,purple,orange);
 }
-
-
-
-.header .container-1 h1{
-color: #fff;
-text-align: left;
-font-size: 23px;
-font-family: nunito;
-line-height:1.6;
-padding-left:5px;
-}
-
 .header .container-1 .container-3{
 display: flex;
 }
@@ -399,6 +424,7 @@ font-size: 13px;
 font-family: nunito;
 font-weight: normal;
 line-height:1.6;
+display: flex;
 }
 .container-6 div span{
 color:#fff;
@@ -556,7 +582,7 @@ padding:10px;
 }
 .container-10 span{
 color:#fff;
-font-size: 13px;
+font-size: 11px;
 font-family: lato;
 font-weight: bold;
 line-height:1.5;
@@ -572,16 +598,33 @@ margin-right: auto;
 }
 .container-10 p{
 color:#444;
-font-size: 15px;
+font-size: 13px;
 font-family: nunito;
 font-weight: bold;
 line-height:2.1;
+}
+@media screen and (max-width: 900px){
+.container-10 span{
+font-size: 11px;
+}
+.container-10 p{
+font-size: 13px;
+}
+}
+@media screen and (max-width: 600px){
+.container-10 span{
+font-size: 13px;
+}
+.container-10 p{
+font-size: 15px;
+}
 }
 /*END SECTION 10 MANGA*/
 
 /*SECTION 11 EPISODES*/
 .container-11{
 padding:10px;
+margin-top:-30px;
 }
 .container-11 h2{
 color:#444;
@@ -590,7 +633,7 @@ font-family: kalam;
 font-weight: bold;
 }
 .container-11 .block-1{
-margin-top:20px;
+
 }
 .container-11 .block-1 span{
 color:#444;
@@ -598,24 +641,33 @@ font-size: 13px;
 line-height:4.1;
 font-family: lato;
 font-weight: bold;
-border:1px solid #999;
-border-radius:3px;
-padding: 10px;
+border-radius:20px;
+padding: 15px;
 background-color: #fff;
-box-shadow:0px 0px 7px 0.4px #999;
+box-shadow:0px 0px 7px 0.4px grey;
 }
 .container-11 .block-1 span a{
 color:#fff;
-padding:9.5px;
+padding:10px;
 left:10px;
 position: relative;
-border-radius:0px 3px 3px 0px;
+border-radius:0px 20px 20px 0px;
 background-color:#0066CC;
 text-decoration:none;
 }
 .container-11 .block-1 span a{
 color:#fff;
-background-color:#0066CC;
+background-color: grey;
+}
+@media screen and (max-width: 900px){
+.container-11 .block-1 span{
+padding: 15px;
+}
+}
+@media screen and (max-width: 600px){
+.container-11 .block-1 span{
+padding: 13px;
+}
 }
 /*SECTION 11 EPISODES*/
 
@@ -625,7 +677,7 @@ padding:10px;
 border-top: 1px solid #999;
 }
 footer .block-1{
-width:10%;
+width:8%;
 padding-bottom: 20px;
 }
 footer .block-1 a:hover{
@@ -636,7 +688,7 @@ background-color: #000;
 }
 footer .block-1 a{
 color:#000;
-font-size: 16px;
+font-size: 13px;
 font-family: lato;
 font-weight: normal;
 line-height: 2.7;
@@ -660,22 +712,11 @@ line-height:2;
 text-decoration: none;
 }
 footer .block-3{
-width: 980px;
-background-color: red;
-}
-@media screen and (max-width:900px){
-footer .block-3{
-width: 890px;
-}
-}
-@media screen and (max-width:600px){
-footer .block-3{
-width: 350px;
-}
+
 }
 footer .block-3 span{
 color:#444;
-font-size: 14px;
+font-size: 11px;
 font-family: lato;
 font-weight: normal;
 line-height:2.1;
@@ -686,7 +727,35 @@ color: #0066CC;
 text-decoration: none;
 }
 footer .block-3 span b{
+font-size: 11px;
+}
+@media screen and (max-width: 900px){
+footer .block-1 a{
+font-size: 14px;
+}
+footer .block-2 a{
 font-size: 13px;
+}
+footer .block-3 span{
+font-size: 13px;
+}
+footer .block-3 span b{
+font-size: 12px;
+}
+}
+@media screen and (max-width: 600px){
+footer .block-1 a{
+font-size: 15.4px;
+}
+footer .block-2 a{
+font-size: 14px;
+}
+footer .block-3 span{
+font-size: 14px;
+}
+footer .block-3 span b{
+font-size: 13px;
+}
 }
 /*END SECTION 6*/
 
@@ -712,5 +781,16 @@ height:50px;
 }
 #hide{
 display: none;
+}
+.errorpage{
+padding: 20px;
+}
+.errorpage h1{
+color:#444;
+font-size: 30px;
+font-family: nunito;
+line-height:1.4;
+font-weight: normal;
+text-decoration: none;
 }
 /*END MISCELLANEOUS*/
