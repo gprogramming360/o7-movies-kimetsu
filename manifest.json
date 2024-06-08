@@ -18,13 +18,13 @@
   ],
   "screenshots": [
     {
-      "src": "assets/screen.png"
+      "src": "img/screen/screen.jpg"
     },
     {
-      "src": "assets/screen.png"
+      "src": "img/screen/screen.jpg"
     },
     {
-      "src": "assets/screen.png"
+      "src": "img/screen/screen.jpg"
     }
   ],
   "features": [
@@ -35,25 +35,25 @@
   ],
   "icons": [
     {
-      "src": "/icons/manifest-icon-192.maskable.png",
+      "src": "/img/icons/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/manifest-icon-192.maskable.png",
+      "src": "/img/icons/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/manifest-icon-512.maskable.png",
+      "src": "/img/icons/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/manifest-icon-512.maskable.png",
+      "src": "/img/icons/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -74,7 +74,7 @@
       "url": "/?startLive",
       "icons": [
         {
-          "src": "/assets/icon/256.png",
+          "src": "/img/icons/256.png",
           "sizes": "256x256"
         }
       ]
