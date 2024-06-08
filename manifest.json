@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "description": "You are Reading Demon Slayer Manga Online Fully Coloured, Download Latest Anime Episodes And Movies For Free In High Quality Format, only at Kimetsu 360",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Kimetsu 360",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Kimetsu 360",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "img/logo.webp"
+    },
+    {
+      "src": "img/background-1.webp"
+    }
+  ],
+  "id": "Kimetsu ",
+  "lang": "en",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "entertainment"
+  ]
+}
