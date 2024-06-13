@@ -5,10 +5,26 @@ DOCUMENTATION ON WHAT TO DO IF THIS SOURCE CODE IS REUSE TO CREAT ANOTHER ANIME 
 
 2. DONT INTERFER WITH THE CSS, THE HIGHEST YOU CAN DO IS CHANGE THE BACKGROUND COLOR.
 
-3. In all the document, change background-1.webp and icon.webp to your desired photo in the IMG FOLDER, dont rename it.
+3. In all the document, change background-1.webp and icon.webp to your desired photo in the IMG FOLDER, don't rename it.
 
 4. BECAUSE THE WEBSITE IS A PWA APK, don't touch the pwabuilder-sw.js BUT MODIFY THE MANIFEST.JSON FILE, Just change some details and add the right photo, AVOID RENAMING.
 
 5. Go to pwa builder by microsoft and create the apk, then upload it to the root of your website. THE APK ICON, when click on should start downloading to users phone. Check the footer.js in the JS FOLDER AND modify the apk URL link.
 
-6. GO TO "JS FOLDER" and modify the 
+6. GO TO "JS FOLDER" and modify the:
+a: footer.js
+b: site_details.js
+DON'T TOUCH ANY OTHER THINGS.
+
+7. GO TO ONEPIECE PLUS PAGE GENERATORS FOR MANGA AND ADD THE FOLLOWING DETAILS TO THE HTML FORM;
+a: site_name
+b: anime_name
+c: site_url
+d: gtags
+e: google_analytic
+f: disqus
+g: manga_title
+h: manga_description
+i: keywords
+j: date_created
+
