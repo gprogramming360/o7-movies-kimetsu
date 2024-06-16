@@ -17,6 +17,6 @@ document.write(b);
 //END FOOTER
 
 //MISCELLANEOUS CODE
-var f="<div class='apk'><a href='../kimetsu.apk' alt='Download Kimetsu Official App'><img src='../../img/apk.webp' alt='apk logo'></a></div>";
+var f="<div class='fb-icon'><a href='https://fb.com/@onepiece-plus' alt='Follow our Facebook page'><img src='../img/fb-icon.png' alt='fb logo'></a></div><div class='yt-icon'><a href='https://m.youtube.com/@onepiece-plus' alt='Subscribe to our YouTube Channel'><img src='../img/yt-icon.png' alt='yt logo'></a></div><div class='apk'><a href='../kimetsu.apk' alt='Download Kimetsu Official App'><img src='../../img/apk.webp' alt='apk logo'></a></div>";
 document.write(f);
 //END MISCELLANEOUS CODE
