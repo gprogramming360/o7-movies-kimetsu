@@ -27,6 +27,9 @@ document.write(i);
 
 var j="<span><img src='../img/infinity.svg' alt='Home icon'><a href='#footer' rel='tags' alt='About us'>About Us</a></span></br>";
 document.write(j);
+
+var jk="<span><img src='../img/open-in-new-window.svg' alt='Watchfilm'><a href='https://watchfilm.xyz' rel='tags' alt='Watchfilm'>Other Animes</a></span></br>";
+document.write(jk);
 //End Links
 var k="</div></nav><div id='closenav' onclick='closesidebar()'></div>";
 document.write(k);
