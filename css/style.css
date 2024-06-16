@@ -761,23 +761,61 @@ font-size: 13px;
 
 /*MISCELLANEOUS*/
 .apk{
-width:50px;
-height: 50px;
+width:40px;
+height: 40px;
 float: right;
 padding:3px;
 bottom: 40px;
 position: fixed;
 border-radius:50%;
 left: 100%;
-margin-left:-80px;
+margin-left:-65px;
 background-color: green;
 }
 apk img a{
 text-decoration:none;
 }
 .apk img{
-width: 50px;
-height:50px;
+width: 40px;
+height:40px;
+}
+.yt-icon{
+width:40px;
+height: 40px;
+float: right;
+padding:3px;
+bottom: 90px;
+position: fixed;
+border-radius:50%;
+left: 100%;
+margin-left:-65px;
+background-color: #8A1616;
+}
+.yt-icon img a{
+text-decoration:none;
+}
+.yt-icon img{
+width: 40px;
+height: 40px;
+}
+.fb-icon{
+width:40px;
+height: 40px;
+float: right;
+padding:3px;
+bottom: 140px;
+position: fixed;
+border-radius:50%;
+left: 100%;
+margin-left:-65px;
+background-color: #004C99;
+}
+.fb-icon img a{
+text-decoration:none;
+}
+.fb-icon img{
+width: 40px;
+height:40px;
 }
 #hide{
 display: none;
