@@ -760,12 +760,52 @@ font-size: 13px;
 /*END SECTION 6*/
 
 /*MISCELLANEOUS*/
+#notice{
+top:0%;
+width: 100%;
+height: 0%;
+z-index:1;
+transition:.3s;
+position: fixed;
+overflow: auto;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+#notice .block-1{
+width: 250px;
+height: auto;
+padding:10px;
+border-radius: 40px 0px 40px 0px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+background: linear-gradient(270deg,#fff,#f2f8ff);
+box-shadow: 0px 0px 5px 1px grey;
+}
+#notice .block-1 span{
+color:#fff;
+font-size: 13px;
+font-family: kalam;
+font-weight: normal;
+line-height:2.1;
+padding:3px;
+border-radius: 3px;
+text-decoration: none;
+background-color: red;
+}
+#notice .block-1 p{
+color:#333;
+font-size: 13px;
+font-family: nunito;
+font-weight: normal;
+line-height:1.8;
+text-decoration: none;
+}
 .apk{
 width:40px;
 height: 40px;
 float: right;
 padding:3px;
-bottom: 40px;
+bottom: 30px;
 position: fixed;
 border-radius:50%;
 left: 100%;
@@ -779,12 +819,31 @@ text-decoration:none;
 width: 40px;
 height:40px;
 }
+.help-me{
+width:40px;
+height: 40px;
+float: right;
+padding:3px;
+bottom: 180px;
+position: fixed;
+border-radius:50%;
+left: 100%;
+margin-left:-65px;
+background-color: #222;
+}
+.help-me img a{
+text-decoration:none;
+}
+.help-me img{
+width: 40px;
+height:40px;
+}
 .yt-icon{
 width:40px;
 height: 40px;
 float: right;
 padding:3px;
-bottom: 90px;
+bottom: 80px;
 position: fixed;
 border-radius:50%;
 left: 100%;
@@ -803,7 +862,7 @@ width:40px;
 height: 40px;
 float: right;
 padding:3px;
-bottom: 140px;
+bottom: 130px;
 position: fixed;
 border-radius:50%;
 left: 100%;
