@@ -7,6 +7,9 @@ DOCUMENTATION ON WHAT TO DO IF THIS SOURCE CODE IS REUSE TO CREAT ANOTHER ANIME 
 
 3. In all the document, change background-1.webp and icon.webp to your desired photo in the IMG FOLDER, don't rename it.
 
+background-2.webp (is for manga)
+background-3.webp (is for episodes)
+
 4. BECAUSE THE WEBSITE IS A PWA APK, don't touch the pwabuilder-sw.js BUT MODIFY THE MANIFEST.JSON FILE, Just change some details and add the right photo, AVOID RENAMING.
 
 5. Go to pwa builder by microsoft and create the apk, then upload it to the root of your website. THE APK ICON, when click on should start downloading to users phone. Check the footer.js in the JS FOLDER AND modify the apk URL link.
