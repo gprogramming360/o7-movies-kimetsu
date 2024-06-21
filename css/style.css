@@ -895,7 +895,6 @@ width:100%;
 bottom:0px;
 display: flex;
 position: fixed;
-background-color: #fff;
 }
 .prevnext a{ 
 color:#333;
@@ -906,6 +905,7 @@ line-height:1.4;
 padding:14px;
 font-weight: normal;
 text-decoration: none;
+background-color: red;
 }
 .prevnext a #next{
 padding:14px;
