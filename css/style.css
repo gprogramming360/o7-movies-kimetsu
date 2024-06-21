@@ -900,21 +900,15 @@ background-color: #fff;
 }
 .prevnext a{
 color:#fff;
-text-decoration: none;
-}
-.prevnext div{
-width:100%;
-}
-.prevnext div span{
-color:#fff;
 font-size: 18px;
 font-family: kalam;
 text-align:center;
 line-height:1.4;
 padding:9px;
 font-weight: normal;
+text-decoration: none;
 }
-.prevnext div #next{
+.prevnext a #next{
 background-color: crimson;
 }
 /*END MISCELLANEOUS*/
