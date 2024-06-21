@@ -893,7 +893,6 @@ text-decoration: none;
 .prevnext{
 width:100%;
 bottom:0px;
-padding:9px;
 display: flex;
 position: fixed;
 background-color: #fff;
@@ -904,11 +903,12 @@ font-size: 18px;
 font-family: kalam;
 text-align:center;
 line-height:1.4;
-padding:9px;
+padding:14px;
 font-weight: normal;
 text-decoration: none;
 }
 .prevnext a #next{
+padding:14px;
 background-color: crimson;
 }
 /*END MISCELLANEOUS*/
