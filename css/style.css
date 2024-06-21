@@ -899,16 +899,16 @@ position: fixed;
 .prevnext a{ 
 width:100%;
 color:#fff;
-font-size: 18px;
+font-size: 17px;
 font-family: kalam;
 text-align:center;
 line-height:1.4;
-padding:14px;
+padding:12px;
 font-weight: normal;
 text-decoration: none;
 background: linear-gradient(270deg,black,#000);
 }
 .prevnext a #next{
-padding:14px;
+padding:12px;
 }
 /*END MISCELLANEOUS*/
