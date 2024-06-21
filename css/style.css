@@ -898,7 +898,7 @@ position: fixed;
 }
 .prevnext a{ 
 width:100%;
-color:#333;
+color:#fff;
 font-size: 18px;
 font-family: kalam;
 text-align:center;
@@ -906,10 +906,9 @@ line-height:1.4;
 padding:14px;
 font-weight: normal;
 text-decoration: none;
-background-color: red;
+background: linear-gradient(270deg,orange,purple);
 }
 .prevnext a #next{
 padding:14px;
-background-color: gold;
 }
 /*END MISCELLANEOUS*/
