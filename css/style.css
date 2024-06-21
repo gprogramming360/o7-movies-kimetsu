@@ -895,16 +895,19 @@ width:100%;
 bottom:0px;
 padding:15px;
 position: fixed;
-background-color: #0066CC;
 }
 .prevnext span{
 color:#444;
-font-size: 30px;
-font-family: nunito;
+font-size: 20px;
+font-family: kalam;
 text-align:center;
 line-height:1.4;
 font-weight: normal;
 text-decoration: none;
+background-color: crimson;
+}
+.prevnext span #next{
+background-color: #0066CC;
 }
 .prevnext span a{
 
