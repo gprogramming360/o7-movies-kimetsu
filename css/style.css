@@ -897,7 +897,14 @@ padding:9px;
 position: fixed;
 background-color: #0066CC;
 }
-.prevnext span{
+.prevnext a{
+color:#fff;
+text-decoration: none;
+}
+.prevnext div{
+width:50%;
+}
+.prevnext div span{
 color:#fff;
 font-size: 18px;
 font-family: kalam;
@@ -905,12 +912,8 @@ text-align:center;
 line-height:1.4;
 padding:9px;
 font-weight: normal;
-text-decoration: none;
 }
-.prevnext span #next{
+.prevnext div span #next{
 background-color: crimson;
-}
-.prevnext span a{
-color:#fff;
 }
 /*END MISCELLANEOUS*/
