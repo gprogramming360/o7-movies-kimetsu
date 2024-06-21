@@ -896,7 +896,7 @@ bottom:0px;
 padding:9px;
 display: flex;
 position: fixed;
-background-color: #0066CC;
+background-color: #fff;
 }
 .prevnext a{
 color:#fff;
@@ -914,7 +914,7 @@ line-height:1.4;
 padding:9px;
 font-weight: normal;
 }
-.prevnext div span #next{
+.prevnext div #next{
 background-color: crimson;
 }
 /*END MISCELLANEOUS*/
