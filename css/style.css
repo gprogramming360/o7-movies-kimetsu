@@ -893,17 +893,17 @@ text-decoration: none;
 .prevnext{
 width:100%;
 bottom:0px;
-padding:15px;
+padding:9px;
 position: fixed;
 background-color: #0066CC;
 }
 .prevnext span{
-color:#444;
-font-size: 20px;
+color:#fff;
+font-size: 18px;
 font-family: kalam;
 text-align:center;
 line-height:1.4;
-padding:15px;
+padding:9px;
 font-weight: normal;
 text-decoration: none;
 }
@@ -911,6 +911,6 @@ text-decoration: none;
 background-color: crimson;
 }
 .prevnext span a{
-
+color:#fff;
 }
 /*END MISCELLANEOUS*/
