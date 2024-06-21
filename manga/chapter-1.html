@@ -1,3 +1,66 @@
+<?php
+$chapter_id= $_GET['chapter_id'];
+$site_name= $_GET['site_name'];
+$anime_name= $_GET['anime_name'];
+$manga_string= $_GET['manga_string'];
+$img_ext= $_GET['img_ext'];
+$img_limit= $_GET['img_limit'];
+$site_url= $_GET['site_url'];
+$gtags= $_GET['gtags'];
+$google_analytic= $_GET['google_analytic'];
+$disqus= $_GET['disqus'];
+$keywords= $_GET['keywords'];
+$manga_title= $_GET['manga_title'];
+$manga_description= $_GET['manga_description'];
+$date_created= $_GET['date_created'];
+?>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!-- Primary Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<link rel="canonical" href="index.html">
+<title>Page Generator</title>
+<meta name="title" content="Html Page Details Generator">
+
+<script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "Page Generator",
+      "url" : "index.html"
+    }
+  </script>
+
+<meta name="description" content="This site is for creating html files by filling in the designated details.">
+<meta property= "keyword" content= "Site generator">
+<meta property= "og:keyword" content= "Site generator">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta property="og:image" href="img/background.webp">
+<link rel="icon" href="img/logo.webp">
+<link rel="og:icon" href="img/logo.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!---HEADER---->
+<div class="header">
+<!---Topnav--->
+<div class="topnav">
+<a href="index.html" alt="Home">Page Generator</a>
+<!---Open Sidebar---->
+<img src="img/logo.webp" class="active"  id="nodisplay" alt="Menu">
+</div></br>
+<!---End Topnav--->
+
+<!---SECTION 1--->
+<div class="container-1">
+<h1 style="font-weight:bold;text-align:center;">Showing Manga Results For Dragon Slayer <span style='font-size:25px;top:4px; position:relative;'>&#128154;</span></h1>
+<textarea type="text" rows="19" name="chapter_id" style="font-weight:normal">
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -15,7 +78,7 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TJQVMTKK');</script>
+})(window,document,'script','dataLayer','<?php echo $gtags; ?>');</script>
 <!-- End Google Tag Manager -->
 
 <!---Everything Here Is Customizable--->
@@ -30,65 +93,65 @@ var page_date="25-05-2024T08:00:23+01:00";
 <!--End Everything Here Is Customizable--->
 
 <!----Js Metadata---->
-<link rel="canonical" href="https://demon-slayer.watchfilm.xyz/manga/chapter-1.html">
-<title> Read Demon Slayer Manga Chapter 1 Fully Coloured Online</title>
-<meta name="title" content=" Read Demon Slayer Manga Chapter 1 Fully Coloured Online"> 
+<link rel="canonical" href="<?php echo $site_url; ?>/manga/chapter-1.html">
+<title><?php echo $manga_title; ?></title>
+<meta name="title" content="<?php echo $manga_title; ?>"> 
 
 <script type="application/ld+json">
     {
       "@context" : "https://schema.org",
       "@type" : "WebSite",
-      "name" : "Kimetsu 360",
-      "url" : "https://demon-slayer.watchfilm.xyz"
+      "name" : "<?php echo $site_name; ?>",
+      "url" : "<?php echo $site_url; ?>"
     }
   </script>
 
-<meta name="description" content=" Read Demon Slayer Chapter 1. You are reading Demon Slayer Chapter 1 in English. Read Demon Slayer Chapter 1 of Demon Slayer manga online. Share Online">
+<meta name="description" content="<?php echo $manga_description; ?>">
 
-<meta property= "keyword" content="Demon slayer, demon slayer anime series, demon slayer manga online, read demon slayer manga online, read demon slayer latest chapter online, download demon slayer movies, download demon slayer anime, download demon slayer movies HD, Download demon slayer latest anime series, demon slayer hashira training, demon slayer season 1, demon slayer season 2,demon slayer season 3,demon slayer season 4,demon slayer season 5, kimetsu no yaiba, kimetsu 360">
-<meta property= "og:keyword" content="Demon slayer, demon slayer anime series, demon slayer manga online, read demon slayer manga online, read demon slayer latest chapter online, download demon slayer movies, download demon slayer anime, download demon slayer movies HD, Download demon slayer latest anime series, demon slayer hashira training, demon slayer season 1, demon slayer season 2,demon slayer season 3,demon slayer season 4,demon slayer season 5, kimetsu no yaiba, kimetsu 360">
+<meta property= "keyword" content="<?php echo $keywords; ?>">
+<meta property= "og:keyword" content="<?php echo $keywords; ?>">
 
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
-<meta property="og:image" href="https://demon-slayer.watchfilm.xyz/img/background-2.webp">
-<link rel="icon" href="https://demon-slayer.watchfilm.xyz/img/logo.webp">
-<link rel="og:icon" href="https://demon-slayer.watchfilm.xyz/img/logo.webp">
+<meta property="og:image" href="<?php echo $site_url; ?>/img/background-2.webp">
+<link rel="icon" href="<?php echo $site_url; ?>/img/logo.webp">
+<link rel="og:icon" href="<?php echo $site_url; ?>/img/logo.webp">
 <link rel="stylesheet" href="../css/style.css">
 
-<meta itemprop="name" content=" Read Demon Slayer Manga Chapter 1 Fully Coloured Online">
-<meta itemprop="description" content=" Read Demon Slayer Chapter 1. You are reading Demon Slayer Chapter 1 in English. Read Demon Slayer Chapter 1 of Demon Slayer manga online. Share Online">
-<meta itemprop="image" content="https://demon-slayer.watchfilm.xyz/img/background-2.webp">
+<meta itemprop="name" content="<?php echo $manga_title; ?>">
+<meta itemprop="description" content="<?php echo $manga_description; ?>">
+<meta itemprop="image" content="<?php echo $site_url; ?>/img/background-2.webp">
 
 <meta property="og:type" content="website"/>
-<meta property="og:site_name" content="Kimetsu 360">
-<meta property="og:url" content="https://demon-slayer.watchfilm.xyz/manga/chapter-1.html">
-<meta property="og:title" content=" Read Demon Slayer Manga Chapter 1 Fully Coloured Online">
-<meta property="og:description" content=" Read Demon Slayer Chapter 1. You are reading Demon Slayer Chapter 1 in English. Read Demon Slayer Chapter 1 of Demon Slayer manga online. Share Online">
-<meta property="og:image" content="https://demon-slayer.watchfilm.xyz/img/background-2.webp">
+<meta property="og:site_name" content="<?php echo $site_name; ?>">
+<meta property="og:url" content="<?php echo $site_url; ?>/manga/chapter-1.html">
+<meta property="og:title" content="<?php echo $manga_title; ?>">
+<meta property="og:description" content="<?php echo $manga_description; ?>">
+<meta property="og:image" content="<?php echo $site_url; ?>/img/background-2.webp">
 
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:url" content="https://demon-slayer.watchfilm.xyz/manga/chapter-1.html">
-<meta property="twitter:title" content=" Read Demon Slayer Manga Chapter 1 Fully Coloured Online">
-<meta property="twitter:description" content=" Read Demon Slayer Chapter 1. You are reading Demon Slayer Chapter 1 in English. Read Demon Slayer Chapter 1 of Demon Slayer manga online. Share Online">
-<meta property="twitter:image" content="https://demon-slayer.watchfilm.xyz/background-2.webp">
+<meta property="twitter:url" content="<?php echo $site_url; ?>/manga/chapter-1.html">
+<meta property="twitter:title" content="<?php echo $manga_title; ?>">
+<meta property="twitter:description" content="<?php echo $manga_description; ?>">
+<meta property="twitter:image" content="<?php echo $site_url; ?>/background-2.webp">
 <!----End Js Metadata---->
 
 <!-- TAGS AND SNIPPET -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP6KNZ2WQM"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $google_analytic; ?>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XP6KNZ2WQM');
+  gtag('config', '<?php echo $google_analytic; ?>');
 </script>
 <!--END TAGS AND SNIPPET -->
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJQVMTKK"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?php echo $gtags; ?>"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -103,11 +166,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!----MANGA TITLE----->
 <div class="container-1">
-<img src="../img/background-2.webp" alt="Kimetsu 360 Background">
+<img src="../img/background-2.webp" alt="<?php echo $site_name; ?> Background">
 <div class="container-2">
-<span>  Start reading  </span>
+<span>&nbsp; Start reading &nbsp;</span>
 </div>
-<h1> Read Demon Slayer Manga Chapter 1 Fully Coloured Online</h1>
+<h1><?php echo $manga_title; ?></h1>
 <script src="../js/manga_page_header.js"></script>
 <!----END MANGA TITLE--->
 
@@ -121,13 +184,21 @@ document.write(bz);
 </script>
 
 <!--Manga images---->
-<div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><script>var img_des='<img itemprop='image' src='+manga_url+'/anime/manga/demon-slayer/01/prefix1.jpg' alt='Demon Slayer Chapter 01 Page 1'>';
-document.write(img_des);</script><a href='chapter-<script>document.write(page)</script>.html' itemprop='url' alt='Demon Slayer Chapter 01 Page 1'><h2 itemprop='name' id='hide'>Demon Slayer Chapter 01 Page 1</h2></a><meta itemprop='position' content='1'>
-</div></br><div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><script>var img_des='<img itemprop='image' src='+manga_url+'/anime/manga/demon-slayer/01/prefix2.jpg' alt='Demon Slayer Chapter 01 Page 2'>';
-document.write(img_des);</script><a href='chapter-<script>document.write(page)</script>.html' itemprop='url' alt='Demon Slayer Chapter 01 Page 2'><h2 itemprop='name' id='hide'>Demon Slayer Chapter 01 Page 2</h2></a><meta itemprop='position' content='2'>
-</div></br><div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><script>var img_des='<img itemprop='image' src='+manga_url+'/anime/manga/demon-slayer/01/prefix3.jpg' alt='Demon Slayer Chapter 01 Page 3'>';
-document.write(img_des);</script><a href='chapter-<script>document.write(page)</script>.html' itemprop='url' alt='Demon Slayer Chapter 01 Page 3'><h2 itemprop='name' id='hide'>Demon Slayer Chapter 01 Page 3</h2></a><meta itemprop='position' content='3'>
-</div></br><!--End Manga images---->
+<?php for($x=1; $x<=$img_limit; $x++){ ?>
+  <div itemprop="itemListElement" itemscope itemtype="(link unavailable)">
+    <script>
+      var manga_url = "<?php echo $manga_url; ?>";
+      var img_des = "<img itemprop='image' src='" + manga_url + "/anime/manga/<?php echo $manga_string; ?>/<?php echo $chapter_id; ?>/prefix<?php echo $x; ?>.<?php echo $img_ext; ?>' alt='<?php echo $anime_name; ?> Chapter <?php echo $chapter_id; ?> Page <?php echo $x; ?>'>";
+      document.write(img_des);
+    </script>
+    <a href='chapter-<?php echo $page; ?>.html' itemprop='url' alt='<?php echo $anime_name; ?> Chapter <?php echo $chapter_id; ?> Page <?php echo $x; ?>'>
+      <h2 itemprop='name' id='hide'><?php echo $anime_name; ?> Chapter <?php echo $chapter_id; ?> Page <?php echo $x; ?></h2>
+    </a>
+    <meta itemprop='position' content='<?php echo $x; ?>'>
+  </div>
+  <br>
+<?php } ?>
+<!--End Manga images---->
 
 </div>
 <!---End Carusol Google SEO--->
@@ -146,14 +217,14 @@ document.write(img_des);</script><a href='chapter-<script>document.write(page)</
     */
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://watchfilm.disqus.com/embed.js';
+    s.src = 'https://<?php echo $disqus; ?>.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-<script id="dsq-count-scr" src="//watchfilm.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//<?php echo $disqus; ?>.disqus.com/count.js" async></script>
 
 <!--SECTION 2 KEYWORDS CHAPTERS-->
 <div class="container-10"><p rel="tags"><span>Tags:</span> <script>document.write(keywords);</script></p></div>
@@ -166,5 +237,17 @@ document.write(img_des);</script><a href='chapter-<script>document.write(page)</
 <!----Js Codes---->
 <script src="../js/allscript.js"></script>
 <!----End Js Codes---->
+</body>
+</html>
+</textarea>
+</div></br>
+<!---END SECTION 1--->
+
+<!---FOOTER--->
+<footer>
+<p>Copyright © 2024 Page Generator</p>
+</footer>
+<!---END FOOTER--->
+
 </body>
 </html>
