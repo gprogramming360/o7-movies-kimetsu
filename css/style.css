@@ -905,10 +905,9 @@ line-height:1.4;
 padding:15px;
 font-weight: normal;
 text-decoration: none;
-background-color: crimson;
 }
 .prevnext span #next{
-background-color: #0066CC;
+background-color: crimson;
 }
 .prevnext span a{
 
