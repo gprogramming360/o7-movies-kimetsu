@@ -906,7 +906,7 @@ line-height:1.4;
 padding:14px;
 font-weight: normal;
 text-decoration: none;
-background: linear-gradient(270deg,black,#222);
+background: linear-gradient(270deg,black,#000);
 }
 .prevnext a #next{
 padding:14px;
