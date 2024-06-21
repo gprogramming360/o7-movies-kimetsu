@@ -539,9 +539,13 @@ document.write(img_des);
 <!--END SECTION 2 KEYWORDS CHAPTERS-->
 
 <!-----PREV AND NEXT---->
-<div class="prevnext">
-<a href="#prev">Previous Chapter</a><a href="#next" id="next">Next Chapter</a>
-</div>
+<script>
+var one1=1;
+var nextpage= page+one1;
+var previouspage= page-one1;
+var classical="<div class='prevnext'><a href='chapter-"+previouspage+".html'>Previous Chapter</a><a href='chapter-"+nextpage+".html' id='next'>Next Chapter</a></div>";
+document.write(classical);
+</script>
 <!-----END PREV AND NEXT---->
 
 <!----Footer---->
