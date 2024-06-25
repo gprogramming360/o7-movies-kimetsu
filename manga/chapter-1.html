@@ -603,7 +603,7 @@ document.write(bz);
 <script>
 var one1=1;
 var nextpage= parseInt(page)+one1;
-var previouspage= page-one1;
+var previouspage= parseInt(page)-one1;
 var classical="<div class='prevnext'><a href='chapter-"+previouspage+".html'>Previous Chapter</a><a href='chapter-"+nextpage+".html' id='next'>Next Chapter</a></div>";
 document.write(classical);
 </script>
